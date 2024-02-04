@@ -3,9 +3,13 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: 'Black Han Sans', sans-serif;font-family: 'Black Han Sans', sans-serif;
+    
 }
 body{
     width: 100%;
+    margin: 0;
+    background-color: #1e1e1e;
 }
 
 .main{
@@ -16,51 +20,27 @@ body{
 
 }
 
-.home{
+.footer{
+    height: 20vh;
 
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1.7fr 1fr;
-    grid-template-rows: 1fr 0.3fr 1fr 1fr;
-
-    background-color: aqua;
+    grid-template-columns: 1fr 1fr;
     
-
 }
-.section1{
-    display: grid;
-    height: 80vh;
 
-    background-color: beige;
+#footerlogo{
+    width: 30vh;
+    margin: auto;
+    /* margin-left: 10vh; */
+    /* margin-bottom: 7vh; */
+    margin-right: 1vh;
+}
+
+#contact{
     
-
 }
-.section2{
-    
-    display: grid;
 
-    height: 70vh;
+/* //모바일로 가면 세로 폭 등등 수정해서 제작해야할듯 */
 
 
-    background-color: blue;
-
-}
-.section2_{
-
-    height: 70vh;
-
-    background-color: blueviolet;
-
-}
-.section3{
-    height: 80vh;
-
-    background-color: chocolate;
-
-}
-.section4{
-    height: 80vh;
-    
-    background-color: cornsilk;
-}
 

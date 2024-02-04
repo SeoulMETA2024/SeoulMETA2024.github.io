@@ -1,13 +1,52 @@
+.home{
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.7fr 1fr;
+    grid-template-rows: 1fr 0.3fr 1fr 1fr;
+
+    background-color: #1e1e1e;
+    
+
+}
+
 #title{
     font-size: 4vh;
     font-weight: 500;
     font-family: 'Black Han Sans', sans-serif;
+    margin-left: 10vh;
+    color: #8b8b8f;
 }
 
 #slogan{
     font-size: 7vh;
     font-weight: 700;
     font-family: 'Black Han Sans', sans-serif;
+    color: white;
 
     margin-top: -2vh;
+    margin-left: 10vh;
+    
 }
+
+#enlist{
+    background-color: white;
+    width: 25vh;
+    height: 5vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 3em;
+
+    font-family: 'Black Han Sans', sans-serif;
+
+    font-size: 2.5vh;
+    
+    margin: auto;
+    margin-top: -3vh;
+    margin-left: 10vh;
+
+    
+}
+
+

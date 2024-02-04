@@ -1,0 +1,40 @@
+.section1{
+    display: grid;
+    grid-template-rows: 1fr 2.5fr;
+    height: 100vh;
+
+    background-color: #FFFFFF;
+}
+
+#sec1title{
+    margin: auto;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#sec1content{
+    margin: auto;
+    text-align: center;
+
+    font-size: 1.5em;
+}
+
+#sec1contentContainer{
+    /* 모바일에선 아마 flex로 나열 */
+    margin: 5em;
+    margin-top: -3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-column-gap:1em;
+
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sec1title{
+    font-size: 2em;
+    text-decoration: underline;
+}
