@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+}
+
+.home{
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.7fr 1fr;
+    grid-template-rows: 1fr 0.3fr 1fr 1fr;
+
+    background-color: aqua;
+    
+
+}
+.section1{
+    display: grid;
+    height: 80vh;
+
+    background-color: beige;
+    
+
+}
+.section2{
+    
+    display: grid;
+
+    height: 70vh;
+
+
+    background-color: blue;
+
+}
+.section2_{
+
+    height: 70vh;
+
+    background-color: blueviolet;
+
+}
+.section3{
+    height: 80vh;
+
+    background-color: chocolate;
+
+}
+.section4{
+    height: 80vh;
+    
+    background-color: cornsilk;
+}
+
