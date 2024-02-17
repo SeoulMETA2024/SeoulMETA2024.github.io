@@ -19,6 +19,19 @@
 
 }
 
+#name{
+    font-size:20vh;
+    font-weight: 750;
+    font-family: 'Black Han Sans', sans-serif;
+
+    margin-left: 10vh;
+    color: #ffffff;
+    white-space: nowrap;
+
+    text-shadow: 0 0 30px rgba(0, 47, 255, 0.7); 
+    animation: neon-flicker 1s infinite alternate;
+}
+
 #title{
     font-size: 6vh;
     font-weight: 500;
