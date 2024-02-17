@@ -1,0 +1,65 @@
+.section1{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh;
+
+    background-color: #d1f64e;
+
+}
+
+#sec1title{
+    font-size: 8vh;
+    margin: auto;
+    white-space: nowrap;
+    
+}
+/* #sec1title{
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: 3em;
+    text-decoration: underline;
+    height: 50vh;
+} */
+
+/* #sec1content{
+    margin: auto;
+    text-align: center;
+    margin-left: 5vh;
+
+    font-size: 1.5vh;
+}
+
+#sec1contentContainer{
+    /* 모바일에선 flex로 나열할듯 */
+    /* margin: 5vh;
+    /* margin-top: -10vh; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+
+
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sec1title{
+    font-size: 3.5vh;
+    /* text-decoration: underline; */
+/* }
+
+.sec1contents{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #deffd4;
+    box-shadow: 0 0 20px #a2ff86;
+    border-radius: 3vh;
+} */ */ */ */
