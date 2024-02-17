@@ -1,5 +1,5 @@
-.section4{
-    height: 80vh;
-    
-    background-color: #181818;
+@media (max-width: 800px){
+    .section4{
+        height: 50vh;
+    }
 }

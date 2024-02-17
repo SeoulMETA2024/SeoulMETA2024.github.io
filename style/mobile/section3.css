@@ -1,6 +1,5 @@
-.section3{
-    height: 80vh;
-
-    background-color: #73e4e2;
-
+@media (max-width: 800px){
+    .section3{
+        height: 50vh;
+    }
 }
