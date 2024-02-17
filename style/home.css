@@ -58,8 +58,8 @@
     color: #ffffff;
     white-space: nowrap;
 
-    text-shadow: 0 0 30px rgba(0, 47, 255, 0.7); 
-    animation: neon-flicker 1s infinite alternate;
+    /* text-shadow: 0 0 30px rgba(0, 47, 255, 0.7); 
+    animation: neon-flicker 1s infinite alternate; */
     margin-bottom: 3vh;
 
 }
