@@ -1,49 +1,68 @@
+@font-face {
+    font-family: 'SDGodic';
+    src: url('font/AppleSDGothicNeoM.ttf');
+
+    font-family: 'SDGodicB';
+    src: url('font/AppleSDGothicNeoB.ttf');
+}
+
 .home{
 
     display: grid;
     height: 100vh;
     grid-template-columns: 1.7fr 1fr;
-    grid-template-rows: 1fr 0.3fr 1fr 1fr;
+    grid-template-rows: 1.5fr 0.1fr 1fr 1fr;
 
     background-color: #1e1e1e;
+
     
 
 }
 
 #title{
-    font-size: 4vh;
+    font-size: 6vh;
     font-weight: 500;
     font-family: 'Black Han Sans', sans-serif;
+
     margin-left: 10vh;
-    color: #8b8b8f;
+    color: #ffffff;
+    white-space: nowrap;
+
+    text-shadow: 0 0 30px rgba(0, 47, 255, 0.7); 
+    animation: neon-flicker 1s infinite alternate;
+
 }
 
 #slogan{
-    font-size: 7vh;
+    font-size: 3vh;
     font-weight: 700;
-    font-family: 'Black Han Sans', sans-serif;
-    color: white;
+    font-family: 'SDGodicB';
+    font-weight: bolder;
+    color: rgb(251, 255, 137);
 
-    margin-top: -2vh;
+    margin-top: -4vh;
     margin-left: 10vh;
+
+    white-space: nowrap;
+
     
 }
 
 #enlist{
-    background-color: white;
+    background-color: rgb(223, 234, 255);
     width: 25vh;
     height: 5vh;
     display: flex; 
     justify-content: center;
     align-items: center;
-    border-radius: 3em;
+    border-radius: 0.5em;
 
     font-family: 'Black Han Sans', sans-serif;
 
     font-size: 2.5vh;
     
     margin: auto;
-    margin-top: -3vh;
+    margin-top: -20vh;
     margin-left: 10vh;
 
     
