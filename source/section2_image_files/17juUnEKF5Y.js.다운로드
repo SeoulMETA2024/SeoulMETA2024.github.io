@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("useIGDIsGenAiFeedbackEnabled",["I64","LSContactTypeExact","LSIntEnum","MWPContactContext.react","qex","react"],(function(a,b,c,d,e,f,g){"use strict";var h,i,j,k=(h||d("react")).unstable_useMemoCache;function a(a){var b=k(2),e=d("MWPContactContext.react").useMWPContactStableContext();e=e.contact;if(a==null)return!1;a=(a=c("qex")._("765"))!=null?a:!1;if(!a)return!1;b[0]!==e?(a=e!=null&&(i||(i=d("I64"))).equal(e.contactTypeExact,(j||(j=d("LSIntEnum"))).ofNumber(c("LSContactTypeExact").GENERATIVE_AI_BOT)),b[0]=e,b[1]=a):a=b[1];return a}g["default"]=a}),98);
