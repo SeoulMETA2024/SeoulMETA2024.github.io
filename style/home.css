@@ -21,10 +21,12 @@
 
 #name{
     font-size:20vh;
-    font-weight: 750;
+    font-weight: 600;
     font-family: 'Black Han Sans', sans-serif;
 
     margin-left: 10vh;
+    margin-bottom : 3vh;
+    margin-top : 3vh;
     color: #ffffff;
     white-space: nowrap;
 
