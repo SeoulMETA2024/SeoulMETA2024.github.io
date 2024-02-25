@@ -30,15 +30,32 @@ body{
 }
 
 .footer{
+    
     height: 20vh;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    
     
 }
 
+.footerContainer{
+    height: 20vh;
+    width: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    margin: auto;
+    
+    
+
+}
+
 #footerlogo{
-    width: 30vh;
+
+    grid-column: 2;
+
+    width: 20vh;
     margin: auto;
     /* margin-left: 10vh; */
     /* margin-bottom: 7vh; */
