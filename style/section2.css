@@ -73,9 +73,9 @@
 .sec2title_{
     margin-bottom: 3vh;
 
-    font-family: Noto Sans KR;
 
-    font-weight: 900;
+
+
 
     font-size: 2.5vw;
     white-space: nowrap;
@@ -101,7 +101,7 @@
 }
 
 .sec2content_{
-    font-family: Noto Sans KR;
+
     font-weight: 900;
     font-size: 100%;
 

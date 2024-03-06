@@ -29,6 +29,7 @@
 
     .sec2content,.sec2content_{
         font-size: 13px;
+        font-weight: 500;
         
 
 
@@ -39,6 +40,7 @@
 
     .sec2title,.sec2title_{
         font-size: 3.8vh;
+        font-weight: 600;
 
         
     }
