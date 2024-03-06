@@ -1,4 +1,7 @@
 .section4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2.5fr;
     height: 80vh;
     
     background-color: #181818;
