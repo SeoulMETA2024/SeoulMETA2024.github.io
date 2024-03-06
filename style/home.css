@@ -1,12 +1,18 @@
 @font-face {
-    font-family: 'SDGodic';
-    src: url('font/AppleSDGothicNeoM.ttf');
-
-    font-family: 'SDGodicEB';
-    src: url('font/AppleSDGothicNeoEB.ttf');
 
     font-family: 'SDGodicB';
     src: url('font/AppleSDGothicNeoB.ttf');
+}
+
+@font-face {
+    font-family: 'SDGodic';
+    src: url('font/AppleSDGothicNeoM.ttf');
+
+}
+
+@font-face {
+    font-family: 'SDGodicEB';
+    src: url('font/AppleSDGothicNeoEB.ttf');
 }
 
 .home{
