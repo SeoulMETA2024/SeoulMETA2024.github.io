@@ -73,15 +73,10 @@
 
     font-weight: 900;
 
-    font-size: 5vh;
+    font-size: 3vh;
     white-space: nowrap;
     margin: auto;
- 
-
     /* margin-right: 10vh; */
-
-    
-    
 
 }
 
@@ -92,7 +87,7 @@
     text-align: center;
     width: 100%;
     margin: auto;
-    font-size: 3.5em;
+    font-size: 1em;
     /* margin-left: 10vh; */
     white-space: nowrap;
 
@@ -101,7 +96,7 @@
 .sec2content_{
     font-family: Noto Sans KR;
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 1em;
 
     grid-column: 1;
     grid-row: 1/3;
@@ -110,7 +105,6 @@
 
     width: 100%;
     margin: auto;
-    font-size: 15px;
     white-space: nowrap;
 
 }
