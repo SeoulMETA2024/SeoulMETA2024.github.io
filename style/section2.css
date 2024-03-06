@@ -58,7 +58,7 @@
     white-space: nowrap;
     margin: auto;
 
-    margin-bottom: 20px;
+    margin-bottom: 20vh;
 
 
     /* margin-left: 10vh; */
@@ -67,7 +67,7 @@
 }
 
 .sec2title_{
-    margin-bottom: 20px;
+    margin-bottom: 20vh;
 
     font-family: Noto Sans KR;
 
