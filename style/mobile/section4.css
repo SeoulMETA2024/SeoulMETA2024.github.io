@@ -1,6 +1,27 @@
 @media (max-width: 800px){
     .section4{
-        height: 50vh;
+        
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sec4title{
+        font-size: 7vw;
+        text-decoration: underline;
+    }
+    .sec4info_title{
+        font-size: 7vw;
+    }
+    .sec4info_content{
+        font-size: 4vw;
+    }
+    .sec4caution{
+        font-size: 3vw;
+    }
+    .sec4container_1{
+        border: 1px white;
     }
 }
 
