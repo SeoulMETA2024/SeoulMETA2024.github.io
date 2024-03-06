@@ -1,6 +1,17 @@
 .section3{
     height: 80vh;
+    background-color: #ffffff;
+}
 
-    background-color: #73e4e2;
-
+.section3Container_1{
+    margin-left: 10vh
+}
+.section3Container_2{
+    margin-left: 5vh
+}
+.sec3title{
+    font-size: 2.5vw
+}
+.sec3content{
+    font-size: 1vw
 }
