@@ -17,7 +17,6 @@
     margin-left: 5vh
 }
 .sec3title{
-    font-family: SDGodicEB;
     text-align: center;
     margin: auto;
     font-size: 4vw;
@@ -26,6 +25,7 @@
 
 }
 .sec3content{
+    font-weight: 500;
     margin-top: 0;
     font-size: 2vw;
     margin: auto;

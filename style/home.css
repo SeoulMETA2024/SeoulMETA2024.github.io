@@ -52,7 +52,7 @@
     color: #ffffff;
     white-space: nowrap;
 
-    text-shadow: 0 0 10px rgba(0, 47, 255, 0.5); 
+    text-shadow: 0 0 10px rgba(0, 47, 255, 0.7); 
     animation: neon-flicker 1s infinite alternate;
 
     
@@ -92,6 +92,7 @@
 }
 
 #enlist{
+    font-weight: 600;
     grid-row: 3;
     background-color: rgb(255, 255, 255);
     width: 25vh;
