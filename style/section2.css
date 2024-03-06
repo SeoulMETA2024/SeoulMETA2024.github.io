@@ -48,17 +48,21 @@
 .sec2Container_{
     margin: auto;
 
+    align-items: center;
+
+    justify-content: center;
+
     grid-column: 1;
 
 }
 
 .sec2title{
     
-    font-size: 5vh;
+    font-size: 2.5vw;
     white-space: nowrap;
     margin: auto;
 
-    margin-bottom: 20vh;
+    margin-bottom: 1vh;
 
 
     /* margin-left: 10vh; */
@@ -67,13 +71,13 @@
 }
 
 .sec2title_{
-    margin-bottom: 20vh;
+    margin-bottom: 1vh;
 
     font-family: Noto Sans KR;
 
     font-weight: 900;
 
-    font-size: 3vh;
+    font-size: 2.5vw;
     white-space: nowrap;
     margin: auto;
     /* margin-right: 10vh; */
@@ -84,26 +88,29 @@
 
 .sec2content{
 
+    margin-top: 0;
+
     text-align: center;
     width: 100%;
     margin: auto;
-    font-size: 1em;
+    font-size: 1vw;
     /* margin-left: 10vh; */
     white-space: nowrap;
+    margin-top: 0;
 
 }
 
 .sec2content_{
     font-family: Noto Sans KR;
     font-weight: 900;
-    font-size: 1em;
+    font-size: 100%;
 
     grid-column: 1;
     grid-row: 1/3;
     text-align: center;
     
 
-    width: 100%;
+    width: 1vw;
     margin: auto;
     white-space: nowrap;
 
