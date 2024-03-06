@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.7fr 2.5fr 1fr;
-    height: 90vh;
+    height: 100vh;
 
     margin-top: 0;
 }
