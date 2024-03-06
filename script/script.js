@@ -17,10 +17,10 @@ let Button = document.getElementById('enlist')
 
 Button.addEventListener('touchstart', function(){
     console.log('click!');
-    this.style.backgroundColor = '#28558c';
+    this.style.backgroundColor = '#7d7d7d';
 });
 Button.addEventListener('touchend', function(){
-    this.style.backgroundColor = '#4193f7';
+    this.style.backgroundColor = '#ffffff';
 });
 
 
