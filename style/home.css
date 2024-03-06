@@ -2,6 +2,9 @@
     font-family: 'SDGodic';
     src: url('font/AppleSDGothicNeoM.ttf');
 
+    font-family: 'SDGodicEB';
+    src: url('font/AppleSDGothicNeoEB.ttf');
+
     font-family: 'SDGodicB';
     src: url('font/AppleSDGothicNeoB.ttf');
 }
@@ -34,7 +37,8 @@
     /* display: none; */
     font-size:10vh;
     font-weight: 500;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'SDGodicEB', sans-serif;
+    font-weight: bolder;
 
     margin-bottom: 0;
     margin-left: 10vh;
@@ -51,7 +55,8 @@
 #title{
     font-size: 4vh;
     font-weight: 500;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'SDGodicB', sans-serif;
+    font-weight: bolder;
 
     margin-left: 10vh;
     margin-top: 0;
@@ -68,9 +73,9 @@
 #slogan{
     font-size: 3vh;
     font-weight: 700;
-    font-family: 'SDGodicB';
+    font-family: 'SDGodicEB';
     font-weight: bolder;
-    color: rgb(251, 255, 137);
+    color: #01ffc9;
 
     margin-top: -3vh;
     margin-left: 10vh;
