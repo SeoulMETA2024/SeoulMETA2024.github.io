@@ -5,11 +5,12 @@
     .sec3title{
         font-size: 5vw;
         font-family: Noto Sans KR;
-        font-weight: 600;
+        font-weight: 700;
     }
     
     .sec3content{
         font-size: 3.5vw;
+        font-weight: 300;
     }
 }
 
