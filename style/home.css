@@ -22,27 +22,37 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
 
-    background-color: #1e1e1e;
+    background-color: #141414;
 
     
 
 }
 .titleDiv{
-
-    display: flex;
+    
+    display:flex;
     flex-direction: column;
     grid-row: 2;
     grid-column: 1;
 
     margin: auto;
+    justify-content: center;
     margin-left: 1vh;
+
+    height: 30vh;
+
+    margin-bottom: 0;
 }
 
 
 #name{
+    font-family: SDGodicEB;
     /* display: none; */
-    font-size:10vh;
-    font-weight: 500;
+    font-size:12vh;
+
+    height: 10vh;
+
+
+
 
     font-weight: bolder;
 
@@ -65,19 +75,21 @@
     font-weight: bolder;
 
     margin-left: 10vh;
-    margin-top: 0;
+    margin-top: 4vh;
     color: #ffffff;
     white-space: nowrap;
 
+    height: 5vh;
+
     /* text-shadow: 0 0 30px rgba(0, 47, 255, 0.7); 
     animation: neon-flicker 1s infinite alternate; */
-    margin-bottom: 3vh;
+
 
 }
 
 
 #slogan{
-    font-size: 3vh;
+    font-size: 5vh;
     font-weight: 800;
 
     font-weight: bolder;
@@ -89,6 +101,10 @@
     white-space: nowrap;
 
     
+}
+
+.homeDeco{
+    display: none;
 }
 
 #enlist{
@@ -108,7 +124,7 @@
     
     margin: auto;
 
-    margin-top: 0;
+    margin-top: 5vh;
 
     margin-left: 10vh;
 

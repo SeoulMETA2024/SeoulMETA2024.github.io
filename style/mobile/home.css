@@ -1,4 +1,5 @@
 @media (max-width: 800px) {
+    
     .home{
         display: grid;
         grid-template-columns: 1fr;
@@ -21,25 +22,33 @@
         margin: auto;
         font-weight: 600;
         text-shadow: none;
-        font-size: 13vw;
+        font-size: 17vw;
+        margin-bottom: 0;
 
     }
     #title{
         font-size: 2.5vh;
         margin: auto;
         font-weight: 600;
+        margin-bottom: 0;
         
         
     }
 
     #slogan{
+
         font-size: 4.5vw;
         font-weight: 700;
         margin: auto;
+        margin-top: -1vh;
 
     }
+    .homeDeco{
+        margin-top: 0;
+        display: flex;
+    }
     #enlist{
-        border-radius: 2vw;
+        border-radius: 2.9vw;
         margin: auto;
         margin-top: 0;
 
