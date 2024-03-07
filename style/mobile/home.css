@@ -20,9 +20,8 @@
     
     #name{
         margin: auto;
-        font-weight: 600;
-        text-shadow: none;
-        font-size: 17vw;
+        width: 60%;
+        height: auto;
         margin-bottom: 0;
 
     }
