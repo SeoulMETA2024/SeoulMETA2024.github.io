@@ -1,8 +1,8 @@
 function enlistButton(){
-    alert('지원 기간이 아닙니다. ')
+
 
     //신청 사이트 나오면 수정 필요
-    var link = 'https://google.com';
+    var link = 'https://seoulhs-club.site/application?club=기계공학부';
  
     location.href=link;
     location.replace(link);
